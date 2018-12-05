@@ -46,10 +46,19 @@
             <artifactId>mysql-connector-java</artifactId>
             <scope>runtime</scope>
         </dependency>
-        <!-- -->
+        <!-- lombok -->
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
+            <optional>true</optional>
+        </dependency>
+        <!-- devtools -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-devtools</artifactId>
+            <scope>runtime</scope>
+            <!-- optional=true,依赖不会传递 -->
+            <!-- 本项目依赖devtools；若依赖本项目的其他项目想要使用devtools，需要重新引入 -->
             <optional>true</optional>
         </dependency>
     </dependencies>

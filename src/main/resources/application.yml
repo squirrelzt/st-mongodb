@@ -19,3 +19,11 @@ spring:
       uri: mongodb://localhost:27017/squirrel
       username: root
       password: root
+
+logging:
+  level:
+    org:
+      springframework:
+        data:
+          mongodb:
+            core: DEBUG
