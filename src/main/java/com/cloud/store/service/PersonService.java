@@ -6,6 +6,12 @@ import org.springframework.data.domain.Page;
 import java.util.List;
 import java.util.Optional;
 
+/**
+ * 类名称:PersonService
+ * 类描述:服务接口
+ * @author shiqianghui
+ * @date 2018-12-05
+ */
 public interface PersonService {
 
     /**
@@ -60,6 +66,8 @@ public interface PersonService {
 
     /**
      * 查询全部数据,分页
+     * @param page 页号
+     * @param size 页大小
      * @return {@link Page<Person>}
      */
     Page<Person> findAllOfPage(Integer page, Integer size);

@@ -11,6 +11,8 @@ import java.util.List;
 import java.util.Optional;
 
 /**
+ * 类名称:PersonServiceImpl
+ * 类描述:接口服务实现类
  * @author squirrel
  * @date 2018-12-05
  */
@@ -76,7 +78,7 @@ public class PersonServiceImpl implements PersonService {
 
     /**
      * 查询全部数据,排序
-     * @param sortType 排序类型(ASC:升序; DESC:降序)
+     * @param sortType 排序类型(asc:升序; desc:降序)
      * @param sortName 排序字段
      * @return {@link List<Person>}
      */
