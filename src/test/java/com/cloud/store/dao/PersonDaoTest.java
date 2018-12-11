@@ -28,12 +28,12 @@ public class PersonDaoTest {
     @Test
     public void save() {
         Person person = new Person();
-//        person.setId(1L);
-//        person.setName("tom");
-//        person.setAge(10);
-        person.setId(2L);
-        person.setName("jeck");
-        person.setAge(20);
+        person.setId(1L);
+        person.setName("tom");
+        person.setAge(10);
+//        person.setId(2L);
+//        person.setName("jeck");
+//        person.setAge(20);
         Person person1 = personDao.save(person);
         System.out.println("-----------------");
         System.out.println(person1.getId() + "\t" + person1.getName() + "\t" + person1.getAge());
