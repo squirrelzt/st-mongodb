@@ -1,27 +1,18 @@
 package com.cloud.store.dao.mongodbtemplate;
 
-import com.alibaba.fastjson.JSON;
 import com.cloud.store.domain.Person;
 import com.cloud.store.service.MongodbTemplateService;
-import com.mongodb.BasicDBObject;
-import com.mongodb.DBObject;
-import com.mongodb.bulk.BulkWriteResult;
 import org.bson.Document;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.data.domain.Sort;
 import org.springframework.data.mongodb.core.MongoTemplate;
-import org.springframework.data.mongodb.core.aggregation.Aggregation;
-import org.springframework.data.mongodb.core.aggregation.AggregationResults;
 import org.springframework.data.mongodb.core.index.IndexInfo;
-import org.springframework.data.mongodb.core.index.IndexOperations;
 import org.springframework.data.mongodb.core.query.Criteria;
 import org.springframework.data.mongodb.core.query.Query;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import javax.swing.text.html.HTMLDocument;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Iterator;
