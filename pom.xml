@@ -61,6 +61,11 @@
             <!-- 本项目依赖devtools；若依赖本项目的其他项目想要使用devtools，需要重新引入 -->
             <optional>true</optional>
         </dependency>
+        <!-- thymeleaf -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-thymeleaf</artifactId>
+        </dependency>
     </dependencies>
 
     <build>
