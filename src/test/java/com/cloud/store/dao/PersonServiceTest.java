@@ -94,6 +94,7 @@ public class PersonServiceTest {
     @Test
     public void findAllByExample() {
         Person person = new Person();
+        person.setName("jane");
         List<Person> list = personService.findAllByExample(person);
         if (!list.isEmpty()) {
             list.forEach(person1 -> {
