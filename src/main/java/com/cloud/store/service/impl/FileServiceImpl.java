@@ -27,7 +27,7 @@ import java.util.List;
 /**
  * 类描述:FileServiceImpl
  * 类描述:文件服务接口实现类
- * @author shiqianghui
+ * @author squirrel
  * @date 2018-12-12
  */
 @Slf4j

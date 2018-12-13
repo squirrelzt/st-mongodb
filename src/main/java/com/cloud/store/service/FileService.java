@@ -13,7 +13,7 @@ import java.util.List;
 /**
  * 类描述:FileService
  * 类描述:文件服务接口
- * @author shiqianghui
+ * @author squirrel
  * @date 2018-12-12
  */
 public interface FileService {

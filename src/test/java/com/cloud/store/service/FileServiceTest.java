@@ -19,7 +19,7 @@ import java.util.List;
 /**
  * 类名称:FileServiceTest
  * 类描述:文件服务接口测试类
- * @author shiqianghui
+ * @author squirrel
  * @date 2018-12-12
  */
 @RunWith(SpringRunner.class)
